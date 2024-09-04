@@ -1,0 +1,99 @@
+//Acessar o servidor
+mongosh "mongodb+srv://clu  ster0.lmpon.mongodb.net/" --apiVersion 1 --username Ribah
+
+//acessar ou criar o banco
+use EtecShop
+
+//Criar a coleção de Produtos
+db.produtos.insertMany([
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+{
+    nome: "",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    estoque: 1,
+    ativo: true,
+},
+
+
+])
