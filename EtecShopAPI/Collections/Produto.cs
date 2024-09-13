@@ -14,7 +14,7 @@ public class Produto
     public string Id { get; set; }
 
     [BsonElement("nome")]
-    [JsonPropertyName("")]
+    [JsonPropertyName("Nome")]
     public string Nome { get; set; }
 
     [BsonElement("descricao")]
